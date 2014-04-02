@@ -1,0 +1,19 @@
+{
+  "name": "phonegap-serve",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pgserve": "index.js"
+  },
+  "preferredGlobal": true,
+  "author": "@brianleroux",
+  "license": "Apache2",
+  "dependencies": {
+    "connect-phonegap": "^0.8.2",
+    "colors": "^0.6.2"
+  }
+}

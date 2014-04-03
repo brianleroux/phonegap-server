@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'version',
+1 verbose cli   'patch' ]
+2 info using npm@1.4.3
+3 info using node@v0.11.13-pre
+4 error Error: Git working directory not clean.
+4 error M index.js
+4 error M node_modules/connect-phonegap/lib/middleware/ext/useragent.js
+4 error M node_modules/connect-phonegap/node_modules/address/package.json
+4 error M node_modules/connect-phonegap/node_modules/connect-inject/package.json
+4 error M node_modules/connect-phonegap/node_modules/connect/node_modules/buffer-crc32/package.json
+4 error M node_modules/connect-phonegap/node_modules/connect/node_modules/cookie-signature/package.json
+4 error M node_modules/connect-phonegap/node_modules/connect/node_modules/fresh/package.json
+4 error M node_modules/connect-phonegap/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/isarray/package.json
+4 error M node_modules/connect-phonegap/node_modules/connect/node_modules/qs/package.json
+4 error M node_modules/connect-phonegap/node_modules/connect/node_modules/send/package.json
+4 error M node_modules/connect-phonegap/node_modules/connect/node_modules/uid2/package.json
+4 error M node_modules/connect-phonegap/node_modules/gaze/package.json
+4 error M node_modules/connect-phonegap/node_modules/home-dir/package.json
+4 error D node_modules/connect-phonegap/node_modules/node-static/node_modules/colors/MIT-LICENSE.txt
+4 error D node_modules/connect-phonegap/node_modules/node-static/node_modules/colors/ReadMe.md
+4 error D node_modules/connect-phonegap/node_modules/node-static/node_modules/colors/colors.js
+4 error D node_modules/connect-phonegap/node_modules/node-static/node_modules/colors/example.html
+4 error D node_modules/connect-phonegap/node_modules/node-static/node_modules/colors/example.js
+4 error D node_modules/connect-phonegap/node_modules/node-static/node_modules/colors/package.json
+4 error D node_modules/connect-phonegap/node_modules/node-static/node_modules/colors/test.js
+4 error D node_modules/connect-phonegap/node_modules/node-static/node_modules/colors/themes/winston-dark.js
+4 error D node_modules/connect-phonegap/node_modules/node-static/node_modules/colors/themes/winston-light.js
+4 error M node_modules/connect-phonegap/node_modules/node-static/node_modules/mime/package.json
+4 error M node_modules/connect-phonegap/node_modules/node-static/package.json
+4 error M node_modules/connect-phonegap/node_modules/request-progress/package.json
+4 error M node_modules/connect-phonegap/node_modules/request/node_modules/http-signature/node_modules/ctype/package.json
+4 error M node_modules/connect-phonegap/node_modules/request/node_modules/mime/package.json
+4 error M node_modules/connect-phonegap/node_modules/shelljs/package.json
+4 error M node_modules/connect-phonegap/node_modules/tar/package.json
+4 error M node_modules/connect-phonegap/node_modules/useragent/.travis.yml
+4 error M node_modules/connect-phonegap/node_modules/useragent/README.md
+4 error M node_modules/connect-phonegap/node_modules/useragent/index.js
+4 error M node_modules/connect-phonegap/node_modules/useragent/lib/regexps.js
+4 error M node_modules/connect-phonegap/node_modules/useragent/package.json
+4 error M node_modules/connect-phonegap/node_modules/useragent/static/user_agent.after.yaml
+4 error M node_modules/connect-phonegap/node_modules/useragent/test/parser.test.js
+4 error M node_modules/connect-phonegap/package.json
+4 error M node_modules/connect-phonegap/res/middleware/cordova/android/cordova.js
+4 error M package.json
+4 error     at /usr/local/lib/node_modules/npm/lib/version.js:98:35
+4 error     at ChildProcess.exithandler (child_process.js:719:7)
+4 error     at ChildProcess.EventEmitter.emit (events.js:107:17)
+4 error     at maybeClose (child_process.js:991:16)
+4 error     at Socket.<anonymous> (child_process.js:1141:11)
+4 error     at Socket.EventEmitter.emit (events.js:104:17)
+4 error     at Pipe.close (net.js:467:12)
+5 error If you need help, you may report this *entire* log,
+5 error including the npm and node versions, at:
+5 error     <http://github.com/npm/npm/issues>
+6 error System Darwin 13.1.0
+7 error command "/usr/local/bin/node" "/usr/local/bin/npm" "version" "patch"
+8 error cwd /Users/brianleroux/Desktop/src/phonegap-serve
+9 error node -v v0.11.13-pre
+10 error npm -v 1.4.3
+11 verbose exit [ 1, true ]
